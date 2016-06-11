@@ -1,0 +1,49 @@
+interbus
+={
+	flags = { interbus }
+	name_list="gallente"
+	ship_prefix="IB"
+	species_name="Gallente"
+	species_plural="Gallenteans"
+	species_class="GAL"
+	species_adjective="Gallentean"
+	portrait="gallente"
+	name="The InterBus"
+	adjective="InterBus"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Ourapheh VI"
+	planet_class="pc_arid"
+	system_name="Ourapheh"
+	initializer="interbus"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="interbus.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Haukkakka Pukara"
+		portrait="gallente_male1"
+	}
+	spawn_enabled=no
+	ethic="ethic_materialist"
+	ethic="ethic_pacifist"
+	ethic="ethic_individualist"
+	trait="trait_thrifty"
+	trait="trait_interbus"
+}

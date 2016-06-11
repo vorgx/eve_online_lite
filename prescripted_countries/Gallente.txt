@@ -1,0 +1,52 @@
+gallente = {
+	flags = { gallente_federation }
+	name_list="gallente"
+	ship_prefix="GAL"
+	species_name="Gallente"
+	species_plural="Gallenteans"
+	species_class="GAL"
+	species_adjective="Gallentean"
+	portrait="gallente"
+	name="Gallente Federation"
+	adjective="Gallente federal"
+	government="indirect_democracy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Gallente Prime"
+	planet_class="pc_ocean"
+	system_name="Luminaire"
+	initializer="gallente_federation"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="gallente_flag.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+
+	}
+	ruler={
+		gender=female
+		name="Julieniya Wond"
+		portrait="gallente"
+	}
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	trait="trait_thrifty"
+	trait="trait_weak"
+	trait="trait_sedentary"
+	trait="trait_talented"
+	trait="trait_gallente"
+}

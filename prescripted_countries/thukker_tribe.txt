@@ -1,0 +1,50 @@
+thukker_tribe
+={
+	flags = { thukker_tribe }
+	name_list="minmatar"
+	ship_prefix="TT"
+	species_name="Thukker"
+	species_plural="Thukker"
+	species_class="MMT"
+	species_adjective="Thukker"
+	portrait="minmatar"
+	name="Thukker Tribe"
+	adjective="Thukker"
+	government="military_junta"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="M-MD3B XI"
+	planet_class="pc_tropical"
+	system_name="M-MD3B"
+	initializer="thukker_tribe"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="thukker.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Egar Aldinold"
+		portrait="minmatar_male6"
+	}
+	spawn_enabled=no
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+	ethic="ethic_collectivist"
+	trait="trait_nomadic"
+	trait="trait_strong"
+	trait="trait_thukker_tribe"
+}

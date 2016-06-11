@@ -1,0 +1,49 @@
+caldari = {
+	flags = { caldari_state }
+	name_list="caldari_namelist"
+	ship_prefix="CLD"
+	species_name="Caldari"
+	species_plural="Caldari"
+	species_class="CLD"
+	species_adjective="Caldari"
+	portrait="caldari"
+	name="Caldari State"
+	adjective="Caldari State"
+	government="military_junta"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Caldari Prime"
+	planet_class="pc_arctic"
+	system_name="New Caldari"
+	initializer="caldari_state"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="caldari_flag.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Morimo Yagala"
+		portrait="caldari"
+	}
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_talented"
+	trait="trait_strong"
+	trait="trait_slow_breeders"
+	trait="trait_caldari"
+}

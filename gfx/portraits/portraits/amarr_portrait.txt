@@ -1,0 +1,150 @@
+portraits = {
+	amarr_male1 = { texturefile = "gfx/portraits/amarr/amarr_male1.dds"}
+	amarr_male2 = { texturefile = "gfx/portraits/amarr/amarr_male2.dds"}
+	amarr_male3 = { texturefile = "gfx/portraits/amarr/amarr_male3.dds"}
+	amarr_male4 = { texturefile = "gfx/portraits/amarr/amarr_male4.dds"}
+	amarr_male5 = { texturefile = "gfx/portraits/amarr/amarr_male5.dds"}
+	amarr_male6 = { texturefile = "gfx/portraits/amarr/amarr_male6.dds"}
+	amarr_female1 = { texturefile = "gfx/portraits/amarr/amarr_female1.dds"}
+	amarr_female2 = { texturefile = "gfx/portraits/amarr/amarr_female2.dds"}
+	amarr_female3 = { texturefile = "gfx/portraits/amarr/amarr_female3.dds"}
+	amarr_female4 = { texturefile = "gfx/portraits/amarr/amarr_female4.dds"}
+	amarr_female5 = { texturefile = "gfx/portraits/amarr/amarr_female5.dds"}
+	amarr_female6 = { texturefile = "gfx/portraits/amarr/amarr_female6.dds"}
+}
+
+portrait_groups = {
+	amarr = {
+		default = amarr_male1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}
+	}		
+		
+}

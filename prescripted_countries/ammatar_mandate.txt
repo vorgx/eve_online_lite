@@ -1,0 +1,50 @@
+ammatar_mandate
+={
+	flags = { ammatar_mandate }
+	name_list="amarr"
+	ship_prefix="AM"
+	species_name="Ammatar"
+	species_plural="Ammatar"
+	species_class="AMR"
+	species_adjective="Ammatari"
+	portrait="amarr"
+	name="Ammatar Mandate"
+	adjective="Ammatar Mandate"
+	government="despotic_empire"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Tanoo II"
+	planet_class="pc_tropical"
+	system_name="Tanoo"
+	initializer="ammatar_mandate"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="ammatar.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Anfrid Uptemulf"
+		portrait="amarr_male1"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_militarist"
+	trait="trait_slow_learners"
+	trait="trait_communal"
+	trait="trait_conformists"
+	trait="trait_ammatar"
+}

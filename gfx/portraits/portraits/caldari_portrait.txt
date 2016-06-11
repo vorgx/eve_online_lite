@@ -1,0 +1,150 @@
+portraits = {
+	caldari_male1 = { texturefile = "gfx/portraits/caldari/caldari_male1.dds"}
+	caldari_male2 = { texturefile = "gfx/portraits/caldari/caldari_male2.dds"}
+	caldari_male3 = { texturefile = "gfx/portraits/caldari/caldari_male3.dds"}
+	caldari_male4 = { texturefile = "gfx/portraits/caldari/caldari_male4.dds"}
+	caldari_male5 = { texturefile = "gfx/portraits/caldari/caldari_male5.dds"}
+	caldari_male6 = { texturefile = "gfx/portraits/caldari/caldari_male6.dds"}
+	caldari_female1 = { texturefile = "gfx/portraits/caldari/caldari_female1.dds"}
+	caldari_female2 = { texturefile = "gfx/portraits/caldari/caldari_female2.dds"}
+	caldari_female3 = { texturefile = "gfx/portraits/caldari/caldari_female3.dds"}
+	caldari_female4 = { texturefile = "gfx/portraits/caldari/caldari_female4.dds"}
+	caldari_female5 = { texturefile = "gfx/portraits/caldari/caldari_female5.dds"}
+	caldari_female6 = { texturefile = "gfx/portraits/caldari/caldari_female6.dds"}
+}
+
+portrait_groups = {
+	caldari = {
+		default = caldari_male1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					caldari_male1	
+					caldari_male2
+					caldari_male3
+					caldari_male4
+					caldari_male5
+					caldari_male6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					caldari_female1
+					caldari_female2
+					caldari_female3
+					caldari_female4
+					caldari_female5
+					caldari_female6					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					caldari_male1	
+					caldari_male2
+					caldari_male3
+					caldari_male4
+					caldari_male5
+					caldari_male6
+					caldari_female1
+					caldari_female2
+					caldari_female3
+					caldari_female4
+					caldari_female5
+					caldari_female6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					caldari_male1	
+					caldari_male2
+					caldari_male3
+					caldari_male4
+					caldari_male5
+					caldari_male6
+					caldari_female1
+					caldari_female2
+					caldari_female3
+					caldari_female4
+					caldari_female5
+					caldari_female6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					caldari_male1	
+					caldari_male2
+					caldari_male3
+					caldari_male4
+					caldari_male5
+					caldari_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					caldari_female1
+					caldari_female2
+					caldari_female3
+					caldari_female4
+					caldari_female5
+					caldari_female6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					caldari_male1	
+					caldari_male2
+					caldari_male3
+					caldari_male4
+					caldari_male5
+					caldari_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					caldari_female1
+					caldari_female2
+					caldari_female3
+					caldari_female4
+					caldari_female5
+					caldari_female6
+				}
+			}
+		}
+	}		
+		
+}

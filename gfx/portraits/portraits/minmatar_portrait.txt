@@ -1,0 +1,150 @@
+portraits = {
+	minmatar_male1 = { texturefile = "gfx/portraits/minmatar/minmatar_male1.dds"}
+	minmatar_male2 = { texturefile = "gfx/portraits/minmatar/minmatar_male2.dds"}
+	minmatar_male3 = { texturefile = "gfx/portraits/minmatar/minmatar_male3.dds"}
+	minmatar_male4 = { texturefile = "gfx/portraits/minmatar/minmatar_male4.dds"}
+	minmatar_male5 = { texturefile = "gfx/portraits/minmatar/minmatar_male5.dds"}
+	minmatar_male6 = { texturefile = "gfx/portraits/minmatar/minmatar_male6.dds"}
+	minmatar_female1 = { texturefile = "gfx/portraits/minmatar/minmatar_female1.dds"}
+	minmatar_female2 = { texturefile = "gfx/portraits/minmatar/minmatar_female2.dds"}
+	minmatar_female3 = { texturefile = "gfx/portraits/minmatar/minmatar_female3.dds"}
+	minmatar_female4 = { texturefile = "gfx/portraits/minmatar/minmatar_female4.dds"}
+	minmatar_female5 = { texturefile = "gfx/portraits/minmatar/minmatar_female5.dds"}
+	minmatar_female6 = { texturefile = "gfx/portraits/minmatar/minmatar_female6.dds"}
+}
+
+portrait_groups = {
+	minmatar = {
+		default = minmatar_male1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}
+	}		
+		
+}

@@ -1,0 +1,48 @@
+angel_cartel
+={
+	flags = { angel_cartel }
+	name_list="minmatar"
+	ship_prefix="AC"
+	species_name="Minmatar"
+	species_plural="Minmatar"
+	species_class="MMT"
+	species_adjective="Minmatar"
+	portrait="minmatar"
+	name="Angel Cartel"
+	adjective="Minmatar"
+	government="military_dictatorship"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Utopia IV"
+	planet_class="pc_tropical"
+	system_name="Utopia"
+	initializer="angel_cartel"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="angelscartel.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Tabe Rajus"
+		portrait="minmatar_male2"
+	}
+	spawn_enabled=no
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_individualist"
+	trait="trait_thrifty"
+	trait="trait_angel"
+}

@@ -1,0 +1,128 @@
+trait_amarr = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_caldari = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_gallente = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_minmatar = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_ammatar = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_angel = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_blood_raider = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_cbd_corporation = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_guristas = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_interbus = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_ishukone_corporation = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_khanid_kingdom = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_lai_dai_corporation = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_mordus_legion = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_ore = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_sanshas_nation = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_syndicate = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+trait_thukker_tribe = {
+	cost = 0
+	initial = no
+	modification = no
+	modifier = {
+	}
+}
+
+

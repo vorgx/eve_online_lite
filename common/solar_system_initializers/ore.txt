@@ -1,0 +1,245 @@
+#### Number of Planets: 9
+
+@tiles_home_world = 16
+@tiles_hab_60_planet = 20
+@tiles_hab_0_planet = 20
+
+@standard_orbit_distance = 40
+@min_moon_distance = 10
+@min_moon_distance_gg = 20
+
+ore = {
+    name = "4C-B7X"
+    class = "rl_standard_stars"
+    flags = { ore_home_system }
+	usage = custom_empire
+    # The Sun of this system:
+    planet = {
+        class = star
+        size = 27
+        orbit_distance = 0
+    }
+    planet = { 
+        class = "pc_molten"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+    }
+    planet = { 
+        class = "pc_desert"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = @tiles_hab_0_planet
+    }
+    planet = { 
+        class = "pc_molten"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+    }
+    planet = { 
+        class = "pc_barren"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        change_orbit = @min_moon_distance
+        moon = {
+			count = 1
+			class = random_non_colonizable
+            size = { min = 3 max = 15 }
+            orbit_distance = { min = 3 max = 8 }
+            orbit_angle = { min = 20 max = 270 }
+        }
+    }
+    planet = { 
+        class = "pc_gas_giant"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        change_orbit = @min_moon_distance_gg
+        moon = {
+			count = { min = 3 max = 7 }
+			class = random_non_colonizable
+            size = { min = 3 max = 15 }
+            orbit_distance = { min = 3 max = 8 }
+            orbit_angle = { min = 20 max = 270 }
+        }
+    }
+    planet = { 
+        class = "pc_ocean"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = @tiles_home_world
+		flags =  { ore_home_planet }
+		home_planet = yes 
+        tile_blockers = none
+        modifiers = none
+        init_effect = { 
+            prevent_anomaly = yes
+        } 
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
+				set_building = "building_capital_1"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}	
+				add_resource = {
+					resource = minerals
+					amount = 1
+				}					
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hydroponics_farm_1"
+					add_resource = {
+						resource = food
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_power_plant_1"
+					add_resource = {
+						resource = energy
+						amount = 1
+						replace = yes
+					}						
+				}
+				random_neighboring_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_mining_network_1"
+					add_resource = {
+						resource = minerals
+						amount = 1
+						replace = yes
+					}						
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = engineering_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = society_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_failing_infrastructure"
+				add_resource = {
+					resource = physics_research
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 2
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}					
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_decrepit_dwellings"
+				add_resource = {
+					resource = energy
+					amount = 1
+					replace = yes
+				}				
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				add_resource = {
+					resource = food
+					amount = 1
+					replace = yes
+				}				
+			}			
+		}
+        change_orbit = @min_moon_distance
+        moon = {
+			count = 1
+			class = random_non_colonizable
+            size = { min = 3 max = 15 }
+            orbit_distance = { min = 3 max = 8 }
+            orbit_angle = { min = 20 max = 270 }
+        }
+    }
+    planet = { 
+        class = "pc_gas_giant"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        change_orbit = @min_moon_distance_gg
+        moon = {
+			count = { min = 3 max = 7 }
+			class = random_non_colonizable
+            size = { min = 3 max = 15 }
+            orbit_distance = { min = 3 max = 8 }
+            orbit_angle = { min = 20 max = 270 }
+        }
+    }
+    planet = { 
+        class = "pc_arctic"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = @tiles_hab_60_planet
+        change_orbit = @min_moon_distance
+        moon = {
+			count = { min = 2 max = 4 }
+			class = random_non_colonizable
+            size = { min = 3 max = 15 }
+            orbit_distance = { min = 3 max = 8 }
+            orbit_angle = { min = 20 max = 270 }
+        }
+    }
+    planet = { 
+        class = "pc_barren"
+        orbit_distance = @standard_orbit_distance
+        orbit_angle = { min = 20 max = 270 }
+        size = { min = 15 max = 35 }
+        change_orbit = @min_moon_distance
+        moon = {
+			count = 1
+			class = random_non_colonizable
+            size = { min = 3 max = 15 }
+            orbit_distance = { min = 3 max = 8 }
+            orbit_angle = { min = 20 max = 270 }
+        }
+    }
+}
+

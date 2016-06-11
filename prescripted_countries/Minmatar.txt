@@ -1,0 +1,49 @@
+minmatar ={
+	flags = { minmatar_republic }
+	name_list="minmatar"
+	ship_prefix="MMT"
+	species_name="Minmatar"
+	species_plural="Minmatar"
+	species_class="MMT"
+	species_adjective="Minmatari"
+	portrait="minmatar"
+	name="Minmatar Republic"
+	adjective="Minmatar Republican"
+	government="military_republic"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Matar"
+	planet_class="pc_tropical"
+	system_name="Pator"
+	initializer="minmatar_republic"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="minmatar_flag.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Amarg Hnergils"
+		portrait="minmatar"
+	}
+	spawn_enabled=always
+	ethic="ethic_fanatic_individualist"
+	ethic="ethic_militarist"
+	trait="trait_adaptive"
+	trait="trait_strong"
+	trait="trait_slow_learners"
+	trait="trait_minmatar"
+}

@@ -1,0 +1,49 @@
+ore
+={
+	flags = { ore }
+	name_list="gallente"
+	ship_prefix="ORE"
+	species_name="Gallente"
+	species_plural="Gallente"
+	species_class="GAL"
+	species_adjective="Gallente"
+	portrait="gallente"
+	name="Outer Ring Excavations"
+	adjective="ORE"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="4C-B7X VI"
+	planet_class="pc_ocean"
+	system_name="4C-B7X"
+	initializer="ore"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="ore.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Afait Assette"
+		portrait="gallente_male3"
+	}
+	spawn_enabled=no
+	ethic="ethic_materialist"
+	ethic="ethic_pacifist"
+	ethic="ethic_individualist"
+	trait="trait_industrious"
+	trait="trait_ore"
+}

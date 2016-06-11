@@ -1,0 +1,49 @@
+cbd_corporation
+={
+	flags = { cbd_corporation }
+	name_list="caldari_namelist"
+	ship_prefix="CBD"
+	species_name="Caldari"
+	species_plural="Caldari"
+	species_class="CLD"
+	species_adjective="Caldari"
+	portrait="caldari"
+	name="CBD Corporation"
+	adjective="CBD"
+	government="despotic_hegemony"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Muvolailen VII"
+	planet_class="pc_ocean"
+	system_name="Muvolailen"
+	initializer="cbd_corporation"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="cdb.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"dark_teal"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Imanima Hinpas"
+		portrait="caldari_female3"
+	}
+	spawn_enabled=no
+	ethic="ethic_collectivist"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	trait="trait_thrifty"
+	trait="trait_cbd_corporation"
+}

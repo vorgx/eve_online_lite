@@ -1,0 +1,11 @@
+ Generated species derive their names from here
+
+CLD = {
+	caldari = {
+		name = "Caldari"
+		plural = "Caldari"
+		home_planet = "Caldari Prime"
+		home_system = New Caldari
+		name_list = "caldari_namelist"
+	}
+}

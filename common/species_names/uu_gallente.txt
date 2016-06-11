@@ -1,0 +1,11 @@
+# Generated species derive their names from here
+
+GAL = {
+	gallente = {
+		name = "Gallente"
+		plural = "Gallenteans"
+		home_planet = "Gallente Prime"
+		home_system = Luminaire
+		name_list = "gallente"
+	}
+}

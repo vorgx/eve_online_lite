@@ -1,0 +1,48 @@
+ishukone_corporation
+={
+	flags = { ishukone_corporation }
+	name_list="caldari_namelist"
+	ship_prefix="IC"
+	species_name="Caldari"
+	species_plural="Caldari"
+	species_class="CLD"
+	species_adjective="Caldari"
+	portrait="caldari"
+	name="Isukone Corporation"
+	adjective="Isukonen"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Malkalen IV"
+	planet_class="pc_tundra"
+	system_name="Malkalen"
+	initializer="ishukone_corporation"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="ishukone.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Men Reppola"
+		portrait="caldari_male4"
+	}
+	spawn_enabled=no
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_thrifty"
+	trait="trait_ishukone_corporation"
+}

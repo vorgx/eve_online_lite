@@ -1,0 +1,272 @@
+﻿gallente = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+
+		}
+
+		##################################
+		# Civilian Ships
+		##################################
+		constructor = {
+			Viator Epithal Iteron Kryos Miasmos Nereus
+		}
+
+		colonizer = {
+			Vexor Imicus Oneiros Nyx
+		}
+
+		science = {
+			Keres Arazu Navitas Velator
+		}
+		transport = {
+			Obelisk Anshar
+		}
+
+		###############################
+		# Military Ships
+		###############################
+
+		corvette = {
+			Enyo Ishkur Helios Celestis Exequror Thoras Atron Incursus Maulus Tristan Ares Taranis Nemesis
+		}
+
+#		frigate = {
+#			Atron Navitas Tristan Maulus Incursus Imicus
+#		}
+
+		destroyer = {
+			Magus Algos Catalyst Phobos Eris Hecate
+		}
+
+		cruiser = {
+			Astarte Eos Deimos Ishtar Proteus Celestis Exequror Vexor Thorax
+		}
+
+#		battlecruiser = {
+#			Brutix Myrmidon Talos
+#		}
+
+		battleship = {
+			Dominix Hyperion Megathron Sin
+		}
+
+#		carrier = {
+#			Thanatos
+#		}
+
+#		dreadnought = {
+#			Moros
+#		}
+
+#		mothership = {
+#			Nyx
+#		}
+
+#		titan = {
+#			Erebus
+#		}
+
+		###################################
+		### Civilian Station
+		###################################
+		orbital_station = { }
+		mining_station = {
+			"Gallente Mining Station"
+		}
+		research_station = {
+			"Gallente Research Center"
+		}
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		
+
+
+		####################################
+		## Military Stations
+		####################################
+		military_station_small = {
+				"Beacon of Hope"
+		}
+
+		military_station_medium = {
+				"Beacon of Freedom"
+		}
+
+		military_station_large = {
+				"Beacon of Liberty"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Liberty Fleet" "Independence Fleet" "Intaki Fleet" "Jin-Mei Fleet" "Freedom Fleet" "Quafe Fleet"
+		}
+		sequential_name = "%0% Fleet"
+	}
+
+	army_names = {
+
+		defense_army = {
+			sequential_name = "%0% Garrison Corps"
+		}
+
+		assault_army = {
+			sequential_name = "%0% Liberator Corps"
+		}
+
+		slave_army = {
+			sequential_name = "%0% Freedom Fighters"
+		}
+
+		clone_army = {
+			sequential_name = "%0% Clone Army"
+		}
+
+		robotic_army = {
+			sequential_name = "%0% Hunter-Killer Group"
+		}
+
+		android_army = {
+			sequential_name = "%0% Synthetic Rangers"
+		}
+
+		psionic_army = {
+			sequential_name = "%0% Mindripper Commando"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%0% Bio-Warfare Division"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%0% Bio-Engineered Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				 Abenync	Adiere	Adrallezoen	Adreland	Aetree	Agrallarier	Ainaille	Ala	Aliette
+				 Alillere	Alles	Allipes	Alsottobier	Ambeke	Ansone	Archee	Ardene	Artisine
+				 Assiettes	Atier	Ation	Auberulle	Audaerne	Aufay	Augnais	Aunia	Aurcel
+				 Auvergne	Aymaerne	Balle	Bamiette	Barmalie	Basgerin	Bawilan	Boillair
+				 Botane	Bourynes	Brapelille	Brybier	Caretyn	Carrou	Chainelant	Chelien	Claysson
+				 Colelie	Crielere	Croleur	Decon	Deltole	Direrie	Dodenvale	Dodixie	Doussivitte
+				 "Du Annes"	Dunraelare	Egghelende	Eglennaert	Erme	Esmes	Estene	Fasse	Faurent
+				 Fluekele	Foves	Fricoure	Gallareue	Goinard	Gratesier	Grinacanne	Ignoitton
+				 Inghenges	Iyen-Oursta	Jel	Jolia	Lamadent	Lermireve	Metserel	Mirilene	Miroitem
+				 Misneden	Nausschie	Ney	Odette	Odotte	Oirtlair	Olelon	Olettiers	Otou	Parchanier
+				 Pettinck	Pozirblant	Pucherie	Pulin	Raeghoscon	Rancer	Ravarin	Rorsins	Schoorasana
+				 Sharuveil	Sileperer	Stayme	Stegette	Stetille	Thelan	Trosquesere	Trossere	Unel
+				 Vittenyn	Vylade
+
+			}
+		}
+
+		pc_desert = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_arid = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_tropical = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_continental = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_gaia = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_ocean = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_tundra = {
+			#names = {
+			#
+			#}
+		}
+
+		pc_arctic = {
+			#names = {
+			#
+			#}
+		}
+	}
+
+
+	### CHARACTERS ###
+
+	character_names = {
+
+		names1 = {
+			weight = 100
+			first_names_male = {
+				Mistin 	Donesh 	Clatin 	Vimaha 	Xatthias 	Pitacen 	Aninner 	Bharnell 	Rollaume
+				Homien 	Pidson 	Clasin 	Emelim 	Gravyn 	Asumanyu 	Aura 	Beyton 	Stegory 	Pitastyn
+				Keerson 	Guamar 	Grelim 	Guinnor 	Emerlot 	Daphon 	Dherred 	Anastan 	Gagory
+				Adhactor 	Antovas 	Guellan 	Korrest 	Hogan 	Keetar 	Jasuki 	Deshita 	Mubaud
+				Ememba 	Ainda 	Fetin 	Vint 	Braird 	Farell 	Rirmain 	Dhelya 	Kedou 	Cohar 	Guelya
+				Gendan 	Castyn 	Anagust 	Tanaka 	Dicin 	Dhevier 	Piman 	Kanda 	Trendaka 	Coraud
+				Adhalere 	Anirnell 	Adhaylin 	Achanesh 	Dirred 	Yackary 	Risuki 	Rarter 	Deren
+				Trirdain 	Eliaron 	Pivit 	Kenjay 	Nartin 	Deejra 	Abralan 	Theonrad 	Brenga 	Theocin
+				Sharcus 	Greskar 	Sashita 	Anancois 	Aurtin 	Aanton 	Breson 	Aunuman 	Charlot
+				Murrison 	Rinesh 	Chalim 	Jounder 	Trimi 	Thiric 	Honcis 	Clirrison 	Vikul 	Chamba
+				Camephon 	Jonabert 	Bhanda 	Abephan
+
+
+
+			}
+			first_names_female = {
+				Crirley 	Amarlotte 	Blannah 	Liliaylah 	Hastin 	Emenjana 	Aniden 	Niruda 	Juylah
+				Ganevika 	Vamana 	Galiana 	Hairy 	Cleleta 	Estehila 	Crimuna 	Jeanne 	Cenjna
+				Julieniya 	Cievika 	Adriarvani 	Malia 	Rimence 	Clede 	Hailya 	Daxia 	Alendal
+				Vargaret 	Denimuna 	Giaphie 	Diashita 	Valehadi 	Memence 	Paundal 	Juliendyn
+				Skytie 	Desidyn 	Emmemuda 	Madandall 	Javanna 	Leongla 	Juka 	Lulya 	Jeastin
+				Amarol 	Maddinna 	Eliamuda 	Devantha 	Adrietie 	Denilina 	Adriaylee 	Menae 	Belin
+				Nasta 	Adriari 	Paucy 	Soka 	Sylvarlotte 	Abhihini 	Desila 	Hairmada 	Ahinette
+				Dabel 	Devaliana 	Stamatar 	Tanungla 	Isaveka 	Dophie 	Kelya 	Solyn 	Riyla 	Stanca
+				Jandra 	Juliebel 	Valesuya 	Jani 	Gamunda 	Donjana 	Arianti 	Cecilinda 	Gwebeca
+				Adelynn 	Sharae 	Skynaelle 	Kasten 	Devasmine 	Dartha 	Garima 	Shanie 	Isahi 	Cielynn
+				Sondy 	Parae 	Avasma 	Maka 	Ciabecca 	Canta 	Taninjana 	Viorson 	Halissa
+
+
+			}
+			second_names = {
+				Wegrave	Waldo	Myrbier	Baunna	Chsker	Amourua	Baruah	Bracrocq	Thanker	Shackley 	Ahuldo
+				Worley	Jadwood	Wavenin	Gairdell	Braker	Fourret	Wodhan	Wocquet	Agarlow 	Juillam	Sourtiss
+				Agament	Gakur	Wekshi	Ramambard	Wegrave	Tennam	Souapon	Gishad 	Lehl	Chnder	Mughtly	Rouirua
+				Mahandom	Comant	Ruyan	Crugg	Vadgers	Souna 	Aurkar	Varlow	Beausad	Pousten	Clarman	Sharon
+				Liquin	Aumer	Thonder	Dattal 	Kullard	Chrna	Sandhi	Sundarbey	Thurris	Thaddle	Siyton	Crulleul
+				Denton	Pirmon 	Dusad	Galrna	Thoquier	Brortin	Wond	Nichortin	Coffen	Letal	Thusley	Pavar
+				Aurya	Amouker	Rutra	Rirreau	Dusak	Pralin	Nagansle	Righton	Coque	Emelita 	Baukshi	Aubirlett
+				Benivan	Nichopham	Atkibertin	Bhodwood	Jalman	Faliff	Wondhi	Bital 	Ramallet	Proston	Thannard
+				Aullot	Thouroux	Aldeward	Thuvills	Seabertin	Aubirbier	Beldo
+			}
+		}
+
+
+	}
+}

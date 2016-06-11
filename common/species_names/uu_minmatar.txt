@@ -1,0 +1,11 @@
+# Generated species derive their names from here
+
+MMT = {
+	minmatar = {
+		name = "Minmatar"
+		plural = "Minmatar"
+		home_planet = "Matar"
+		home_system = Pator
+		name_list = "minmatar"
+	}
+}

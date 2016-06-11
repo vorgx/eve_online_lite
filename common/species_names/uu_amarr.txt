@@ -1,0 +1,11 @@
+# Generated species derive their names from here
+
+AMR = {
+	amarr = {
+		name = "Amarr"
+		plural = "Amarrians"
+		home_planet = "Oris"
+		home_system = Amarr
+		name_list = "amarr"
+	}
+}

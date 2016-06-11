@@ -1,0 +1,50 @@
+blood_raiders
+={
+	flags = { blood_raiders }
+	name_list="amarr"
+	ship_prefix="BRC"
+	species_name="Amarr"
+	species_plural="Amarr"
+	species_class="AMR"
+	species_adjective="Amarrian"
+	portrait="amarr"
+	name="Blood Raiders Convenant"
+	adjective="Blood Raider's"
+	government="divine_mandate"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="KFIE-Z IV"
+	planet_class="pc_desert"
+	system_name="KFIE-Z"
+	initializer="blood_raiders"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="bloodraider.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Omir Sarikusa"
+		portrait="amarr_male6"
+	}
+	spawn_enabled=no
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_spiritualist"
+	trait="trait_conformists"
+	trait="trait_repugnant"
+	trait="trait_natural_sociologists"
+	trait="trait_blood_raider"
+}

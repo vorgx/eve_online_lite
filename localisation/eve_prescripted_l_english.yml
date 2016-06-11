@@ -1,0 +1,130 @@
+﻿l_english:
+ #################
+ ## Index
+ ## General
+ ## Species
+ ## Empire Names & Descriptions
+ ## Solarsystem Names
+ # General
+ FLAG_CATEGORY_eve:0 "Eve"
+ IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
+ ## Species
+ CLD:0 "Caldari"
+ MMT:0 "Minmatar"
+ GAL:0 "Gallente"
+ AMR:0 "Amarr"
+ ### Name Lists
+ name_list_amarr:0 "Amarr Empire"
+ name_list_caldari_namelist:0 "Caldari State"
+ name_list_gallente:0 "Gallente Federation"
+ name_list_minmatar:0 "Minmatar Republic"
+ #### Empire Names & Descriptions
+ #Amarr Factions
+ EMPIRE_DESIGN_amarr:0 "Amarr Empire"
+ EMPIRE_DESIGN_amarr_desc:0 "Empire Bonus\n\n15% Armor Bonus\n+5 to Armor\n\nThe Amarrians were the first of the races in EVE to re-discover Warp technology, notably Jump gate technology. After accomplishing this more than 2,000 years ago, they immediately began expanding to nearby solar systems, slowly building up their empire in the process. On the way, they encountered two human races, both of whom suffered the fate of being enslaved by the far more powerful Amarrians.In recent years, however, the Amarrians have begun to run into serious opposition. First, they met the Gallente Federation. Although much smaller than the Amarr Empire, the Amarrians soon found the economic and military might of the Gallenteans a match for their own.Soon after, the Jovians arrived on the scene and the Amarrians made a futile attempt to subjugate them, resulting in a humiliating defeat. To make matters worse, the Minmatars, enslaved for centuries by the Amarrians, used the opportunity to rebel against their slave-masters.Since these fateful events almost two centuries ago, the Amarrians have learned restraint. They have slowed down their expansion and are less forceful in their dealings with other races, but still view themselves as the most powerful race in EVE, if only because of their sheer numbers."
+ EMPIRE_DESIGN_khanid_kingdom:0 "Khanid Kingdom"
+ EMPIRE_DESIGN_khanid_kingdom_desc:0 "Khanid Trade Access:\n\nTrade Attractivness +20%\nInfluence Gain +1\n Energy Credit Output +10%\n\nThe Khanid Kingdom is a small, but independent nation ruled by the Khanid Kingdom.\n\n They managed to free themselves from the Amarr Empire, after their now Ruler Khanid II, refused to commit ritualistic suicide."
+ EMPIRE_DESIGN_ammatar_mandate:0 "Ammatar Mandate"
+ EMPIRE_DESIGN_ammatar_mandate_desc:0 "Ammatar Collaboration:\n\nEthic Divergence -20%\nEmbassies +1\nHabitability +10%\n\nThe Ammatar Mandate is a client state of the Amarr Empire and functions as a buffer against the Minmatar Republic."
+
+ # Gallente Factions
+ EMPIRE_DESIGN_gallente:0 "Gallente Federation"
+ EMPIRE_DESIGN_gallente_desc:0 "Federation Bonus\n\n15% Hull \n+100 to Hull\n\nFew societies display such stark contrasts. Many of the wealthiest people in the world are Gallenteans, creating a constant demand for luxury goods. At the same time, the ranks of the poor number millions, because while the liberal market-driven economy and individual freedom may allow everybody the chance to advance to the top, they make it just as easy to plummet to the very bottom of the social ladder. \n\nIn the world of EVE, the Gallentean are the kings of entertainment, mass-producing everything from cheap porn-flicks to elaborate stage-shows for an ever-hungry public. They boast the most elaborate luxury space yachts, and the most glittering hotel reservoirs. Anything your mind or body could ever crave, the Gallenteans have plenty of it.\n\nThe Gallenteans are not alone in their Federation, whose boundaries are home to pockets of residents, varying in size and representing all the other races of EVE, most of whom left their own empires due to political or ideological differences, or simply in search of peace and prosperity. In addition to these there are two human races, the Intakis and the Mannars, both of whom the Gallenteans found while exploring and expanding their empire. Both were at a very primitive level when the Gallenteans found them, but since coming under the protection and guidance of the Gallenteans, both races have flourished and are today a full-fledged members of the Federation.\n\nThe Caldari were initially part of the Federation but deep-seated differences and mutual animosity between them and the Gallenteans drove them out to found their own empire. For a time, the two empires warred against each other, but as neither could gain sufficient advantage to claim victory, peace was settled in the end."
+
+ # Minmatar Factions
+ EMPIRE_DESIGN_minmatar:0 "Minmatar Republic"
+ EMPIRE_DESIGN_minmatar_desc:0 "Republic Bonus\n\n25% Combat Speed\n25% Sublight Speed.\n15% Bonus to Evasion\n\nA tough, no-nonsense race, the Minmatar are a determined and independent people. Their home planet of Matar is a natural paradise, although centuries of abuse have taken much from its beauty.\n\nFor the Minmatar, the most important thing in life is to be able to take care of yourself on your own, and although kin and family play an important role in their society, they prefer identifying themselves by the clan or tribe to which they belong. A clan can have any number of people in it, and its size is largely dictated by the main activity of its members. Most specialize in one area of activity. While those who live on a planet can focus on agricultural or industrial activity, others who travel around the world of EVE concentrate on trading, pirating, and suchlike. In the distant past the clans constantly warred against each other. Since then, however, Minmatar have learned that cooperation is more important, and although the clans still try to maintain their regional and ideological identities, they act as a single unit towards other races.\n\nThe fortunes of the Minmatar have ebbed and flowed continuously. At one time they had a flourishing empire with a level of mechanical excellence never before or since seen anywhere. Later, however, they had to endure centuries of enslavement, toiling and dying for the benefit of foreign masters. Today most of them have regained their freedom, but the legacy of their enslavement has been the diaspora of the race.\n\nThe Minmatar are the most numerous of all the races in the world of EVE, but their vast numbers are divided into many factions. While the Minmatar Republic is the official state, only a quarter of all Minmatar are part of it. The largest proportion, almost a third, are enslaved within the huge Amarr Empire, while a fifth resides within the Gallente Federation, creating a powerful political bloc which keeps relations between the Gallenteans and the Amarrians in a constant state of tension. The remainder, who are not part of any formal organization, live as freemen throughout the world. Many are itinerant labourers, roaming from one system to another in search for work. A fair number make their living on the darker side of the law, acting as pirates, smugglers and peddlers in all kinds of illegal goods, and many of the larger criminal groups in the world of EVE are run by Minmatar."
+ EMPIRE_DESIGN_thukker_tribe:0 "Thukker Tribe"
+ EMPIRE_DESIGN_thukker_tribe_desc:0 "Thukker Caravans:\n\nColony Development Speed +40%\nTile Blocker Clear Cost -20%\nTile Blocker Clear Time -20%\n\nThe Thukker Tribe roams the Great Wildlands."
+
+ # Caldari Factions
+ EMPIRE_DESIGN_caldari:0 "Caldari State"
+ EMPIRE_DESIGN_caldari_desc:0 "State Bonus\n\n15% Shield Bonus\n+50 to Shield\n\nA state built on corporate capitalism, the Caldari State is run by a few mega-corporations which divide the state between them, controlling and ruling every aspect of society. Each corporation is made up of thousands of smaller companies, ranging from industrial companies to law firms. All land and real estate is owned by a company which leases it to the citizens, and government and policing are also handled by independent companies. \n\nWhile the Caldari State may not be nearly as big as that of the Gallenteans, let alone the Amarrians, they are still universally feared and admired. Their economy is strong, and their military might parallel to that of the larger empires. Coupled to the fact that they are more unscrupulous than the Gallenteans and more combative than the Amarrians, this makes them in many ways the most meddlesome of all the empires. As most Caldari trade is conducted by individual companies rather than the State itself, this makes it difficult for the other empires to deal with them at a political level. If a company is found guilty of unethical business dealings, it simply disappears into its parent corporation, and before long another one appears to take its place. But if a Caldari company is threatened, the whole corporation and often the whole State backs it up with full force. \n\nIt was at this time that the corporations established themselves as the driving force behind creating and maintaining the new Caldari State. Even if the Caldari have not engaged in war for many decades, they still strive to be at the cutting edge of military technology and their vessels, weapons and fighting methods are inferior to none but the enigmatic Jovians. \n\nTo curb their aggressive tendencies, the Caldari actively pursue and sponsor a range of sporting activities. Many of these are bloody, gladiatorial-like competitions, while others are more like races. But whatever the sport, the Caldari love betting on the outcome, making gambling a massive industry in the State. \n\nThe Caldari State offers its citizens the best and the worst in living conditions. As long as you keep in line, do your job, uphold the laws and so forth, life can be fairly pleasant and productive. But for those who are not cut out for this strict, disciplined regime life quickly becomes intolerable. They lose their respect, family, status, everything, and the only options left to them are suicide or exile. Although not xenophobic as such, the Caldari are very protective of their way of life and tolerate only those foreigners that stick to the rules."
+ EMPIRE_DESIGN_ishukone_corporation:0 "Isukone Corporation"
+ EMPIRE_DESIGN_ishukone_corporation_desc:0 "Jovian Technology Exchange:\n\nTechnology Research Speed +10%\nTechnology Alternatives +1\n\nIshukone was for a long time the feeblest of the Caldari mega corporations, but contact with the Jovians changed that. Ishukone was the first company to establish trade links with the Jovians and received the capsule technology from the Jovians, which made Ishukone billions of ISK in revenue before other companies could catch up. Ishukone is still reaping the rewards of their good relations with the Jovians and it possesses the most advanced technology outside Jove space."
+ EMPIRE_DESIGN_cbd_corporation:0 "CBD Corporation"
+ EMPIRE_DESIGN_cbd_corporation_desc:0 "CBD Trade Network:\n\nTrade Attractivness +20%\nShip Maintenance -10%\n\nThe CBD Corporation is one of the biggest exporters/importers in Caldari space. The corporation has established trade links far and wide, with a huge amount of goods in constant fluctuation."
+ EMPIRE_DESIGN_laidai_corporation:0 "Lai-Dai Corporation"
+ EMPIRE_DESIGN_laidai_corporation_desc:0 "Lai-Dai Quality Insurance:\n\nShip Construction Time +10%\nShip Construction Cost +10%\nShip Maintenance -20%\nShip Hullpoints +30%\n\nLai Dai has always advocated quality over quantity and their products have always been of the highest standard. Lai Dai has an energetic research program and rivals the great Ishukone in technological achievements."
+
+ # Jove Factions
+
+ # Neutral Factions
+ EMPIRE_DESIGN_ore:0 "Outer Ring Excavations (ORE)"
+ EMPIRE_DESIGN_ore_desc: "ORE Mining Construction:\n\nMining Station Construction Cost -40%\nMineral Output +10%\n\nThe Outer Ring Excavations (ORE) is a powerful mining company which operates mostly in the Outer Ring region. It is one of the most powerful and wealthy corporations in New Eden."
+ EMPIRE_DESIGN_interbus:0 "The Interbus"
+ EMPIRE_DESIGN_interbus_desc:0 "Interbus Transportation:\n\nShip Construction Time -20%\nShip Construction Cost -30%\n\nThe Interbus was created by the four empires to enable more people to travel through the galaxy."
+ EMPIRE_DESIGN_mordus_legion:0 "Mordu's Legion Command"
+ EMPIRE_DESIGN_mordus_legion_desc: "Mordu's Legion Commanders:\n\nLeader Skill Level +1\nLeader Recruitement Cost -33%\nLeader Recruitement Pool +1\n\nMordu's Legion Command is an independent mercenary company, which was founded by an Intaki war veteran during the Gallente-Caldari War."
+
+ # Hostile Factions
+ EMPIRE_DESIGN_sanshas_nation:0 "Sansha's Nation"
+ EMPIRE_DESIGN_sanshas_nation_desc:0 "True Slaves:\n\nEthic Divergence 100%\nPopulation Happiness +100%\nLeader Experience Gain -50%\n\nSansha's Nation was created by Kuvakei Sansha, a very wealthy and successfull Caldari businessman."
+
+ # Pirate Factions
+ EMPIRE_DESIGN_guristas:0 "Guristas Pirates"
+ EMPIRE_DESIGN_guristas_desc:0 "Guristas Operations:\n\nMineral Output +10%\nLeader Experience Gain +25%\nEdict Influence Cost -25%\n\nThe Guristas Pirates were founded by two Caldari war Veterans."
+ EMPIRE_DESIGN_angel_cartel:0 "Angel Cartel"
+ EMPIRE_DESIGN_angel_cartel_desc:0 "Jovian Technology Salvagers:\n\nAnamoly Generation Chance +50%\nAnomaly Fail Risk -20%\n\nThe Angel Cartel is the most powerful of the pirate factions in New Eden. They focus their operations on Minmatar Space, but are active in all of New Eden. The Angel Cartel was founded in the Utopia System on the remnants of the First and Second Jove Empires."
+ EMPIRE_DESIGN_blood_raiders:0 "Blood Raiders Covenant"
+ EMPIRE_DESIGN_blood_raiders_desc:0 "Blood Rituals:\n\nSociety Research Speed +40%\nArmy Health +20%\n\nThe Blood Raiders formed after the Amarr Empire expelled or purged the members of the Sani Sabik cult. Their desire to drain the blood of others, which they use for their rituals, is what gives them their names."
+ EMPIRE_DESIGN_syndicate:0 "Intaki Syndicate"
+ EMPIRE_DESIGN_syndicate_desc:0 "Syndicate Financial Sector:\n\nEnergy Credits Output +30%\n\nThe Intaki Syndicate was founded after the Gallente Federation expelled the Intaki dissenters during the Gallente-Caldari War. These dissenters set out for the unexplored regions of space and have built a small empire, where you can get everything."
+
+
+
+ # Solar System Initializer Names and Descriptions
+ # Amarr Factions
+ amarr_empire_NAME:0 "Amarr"
+ amarr_empire_DESC:0 "Home system of the Amarr Empire."
+ khanid_kingdom_NAME:0 "Khanid Prime"
+ khanid_kingdom_DESC:0 "This is the home system of the Khanid Kingdom."
+ ammatar_mandate_NAME:0 "Tanoo"
+ ammatar_mandate_DESC:0 "The capital system of the Ammatar Mandate.\n\nIt is located in the Derelik region."
+
+ # Gallente Factions
+ gallente_federation_NAME:0 "Luminaire"
+ gallente_federation_DESC:0 "The home system of the Gallente Federation.\n\nHere both the Gallente and Caldari became space faring civilizations."
+
+ # Caldari Factions
+ caldari_state_NAME:0 "New Caldari"
+ caldari_state_DESC:0 "This is the new capital world of the Caldari State.\n\nIt is located in \"The Forge\" region."
+ ishukone_corporation_NAME:0 "Malkalen"
+ ishukone_corporation_DESC:0 "System of the Isukone Corporation headquarters."
+ cbd_corporation_NAME:0 "Muvolailen"
+ cbd_corporation_DESC:0 "System of the CDB Corporation headquarters."
+ laidai_corporation_NAME:0 "Airkio"
+ laidai_corporation_DESC:0 "System of the Lai-Dai Corporation headquarters."
+
+ # Minmatar Factions
+ minmatar_republic_NAME:0 "Pator"
+ minmatar_republic_DESC:0 "Pator in the Heimatar region is the home system of the Minmatar."
+ thukker_tribe_NAME:0 "M-MD3B"
+ thukker_tribe_DESC:0 "Home system of the Thukker Tribe.\n\nLocated in the Great Wildlands."
+
+ # Neutral Factions
+ ore_NAME:0 "4C-B7X"
+ ore_DESC:0 "Headequarters of Outer Ring Excavation (ORE)."
+ interbus_NAME:0 "Ouapheh"
+ interbus_DESC:0 "Headequarters of The Interbus."
+ mordus_legion_NAME:0 "5ZXX-K"
+ mordus_legion_DESC:0 "Command of the Mordu's Legion."
+
+
+ # Jove Factions
+
+ # Hostile Factions
+ sanshas_nation_NAME:0 "37S-KO"
+ sanshas_nation_DESC:0 "Home system of Sansha's Nation.\n\nLocated in Stain."
+
+ # Pirate Factions
+ guristas_NAME:0 "6NJ8-V"
+ guristas_DESC:0 "Home system of the Guristas Pirates."
+ angel_cartel_NAME:0 "Utopia"
+ angel_cartel_DESC:0 "Home system of the Angel's Cartel."
+ blood_raiders_NAME:0 "KFIE-Z"
+ blood_raiders_DESC:0 "Home system of the Blood Raider's Covenant."
+ syndicate_NAME:0 "Poitot"
+ syndicate_DESC:0 "Home system of the Intaki Syndicate."
+ 
+ 

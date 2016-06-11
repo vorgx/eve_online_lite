@@ -1,0 +1,49 @@
+amarr = {
+	flags = { amarr_empire }
+	name_list="amarr"
+	ship_prefix="AMR"
+	species_name="Amarr"
+	species_plural="Amarrians"
+	species_class="AMR"
+	species_adjective="Amarrian"
+	portrait="amarr"
+	name="Amarr Empire"
+	adjective="Amarr Imperial"
+	government="theocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Amarr Prime"
+	planet_class="pc_continental"
+	system_name="Amarr"
+	initializer="amarr_empire"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="amarr_flag.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Jamyl Sarum I."
+		portrait="amarr"
+	}
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+	trait="trait_slow_breeders"
+	trait="trait_enduring"
+	trait="trait_conformists"
+	trait="trait_amarr"
+}

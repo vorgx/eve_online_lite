@@ -1,0 +1,50 @@
+khanid_kingdom
+={
+	flags = { khanid_kingdom }
+	name_list="amarr"
+	ship_prefix="RKN"
+	species_name="Khanid"
+	species_plural="Khanid"
+	species_class="AMR"
+	species_adjective="Khanid"
+	portrait="amarr"
+	name="Khanid Kingdom"
+	adjective="Khanid"
+	government="despotic_empire"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Khanid Prime V"
+	planet_class="pc_continental"
+	system_name="Khanid Prime"
+	initializer="khanid_kingdom"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="khanid.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Garkeh Khanid II"
+		portrait="amarr_male3"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_militarist"
+	trait="trait_sedentary"
+	trait="trait_nonadaptive"
+	trait="trait_very_strong"
+	trait="trait_khanid_kingdom"
+}

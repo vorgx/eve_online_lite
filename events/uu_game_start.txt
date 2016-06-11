@@ -1,0 +1,96 @@
+namespace = uu_gameinit
+
+event = {
+	id = uu_gameinit.1
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			country_event = { id = uu_gameinit.2 }
+		}
+	}
+}
+
+### Racial Starting Bonus###
+country_event = {
+	id = uu_gameinit.2
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_country = {
+			
+			if = {  ### Ishukone Corporation
+				limit = { has_trait = trait_ishukone_corporation }			
+				add_modifier = { modifier = jovian_technology_exchange }
+			}	
+			if = {  ### Gallente Federation 
+				limit = { has_trait = trait_gallente }
+				add_modifier = { modifier = gallente_hull_construction }
+			}
+			if = { ### Amarr Empire
+				limit = { has_trait = trait_amarr }
+				add_modifier = { modifier = amarrian_armor }
+			}
+			if = { ### Minmatar Republic 
+				limit = { has_trait = trait_minmatar }
+				add_modifier = { modifier = minmatari_thrusters }
+			}
+			if = { ### Caldari State
+				limit = { has_trait = trait_caldari }
+				add_modifier = { modifier = caldari_shield_generators }
+			}
+			if = { ### Sansha's Nation
+				limit = { has_trait = trait_sanshas_nation }
+				add_modifier = { modifier = true_slaves }
+			}
+			if = { ### Khanid Kingdom 
+				limit = { has_trait = trait_khanid_kingdom }
+				add_modifier = { modifier = khanid_trade_access }
+			}
+			if = { ### Ammatar Mandate
+				limit = { has_trait = trait_ammatar }
+				add_modifier = { modifier = ammatar_collaboration }
+			}
+			if = { ### Outer Ring Excavations (ORE)
+				limit = { has_trait = trait_ore }
+				add_modifier = { modifier = ore_mining_construction }
+			}
+			if = { ### The Interbus
+				limit = { has_trait = trait_interbus }
+				add_modifier = { modifier = interbus_transportation }
+			}
+			if = { ### Mordu's Legion Command
+				limit = { has_trait = trait_mordus_legion }
+				add_modifier = { modifier = mordus_legion_commanders }
+			}
+			if = { ### Blood Raiders 
+				limit = { has_trait = trait_blood_raider }
+				add_modifier = { modifier = blood_rituals }
+			}
+			if = { ### Angel Cartel
+				limit = { has_trait = trait_angel }
+				add_modifier = { modifier = jovian_technology_salvagers }
+			}
+			if = { ### CBD Corporation
+				limit = { has_trait = trait_cbd_corporation }
+				add_modifier = { modifier = cbd_trade_network }
+			}
+			if = { ### Lai-Dai Corporation
+				limit = { has_trait = trait_lai_dai_corporation }
+				add_modifier = { modifier = lai_dai_quality_insurance }
+			}
+			if = { ### Intaki Syndicate
+				limit = { has_trait = trait_syndicate }
+				add_modifier = { modifier = syndicate_financial_sector }
+			}
+			if = { ### Guristas Pirates
+				limit = { has_trait = trait_guristas }
+				add_modifier = { modifier = guristas_operations }
+			}
+			if = { ### Thukker Tribe
+				limit = { has_trait = trait_thukker_tribe }
+				add_modifier = { modifier = thukker_caravans }
+			}			
+		}
+	}
+}

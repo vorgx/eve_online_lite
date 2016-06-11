@@ -1,0 +1,51 @@
+sanshas_nation
+={
+	flags = { sanshas_nation }
+	name_list="caldari_namelist"
+	ship_prefix="SN"
+	species_name="Caldari"
+	species_plural="Caldari"
+	species_class="CLD"
+	species_adjective="Caldari"
+	portrait="caldari"
+	name="Sansha's Nation"
+	adjective="Sansha's Nation"
+	government="military_dictatorship"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="37S-KO IVa"
+	planet_class="pc_arid"
+	system_name="37S-KO"
+	initializer="sanshas_nation"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="sansha.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"dark_grey"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Sansha Kuvakei"
+		portrait="caldari"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_militarist"
+	trait="trait_industrious"
+	trait="trait_slow_breeders"
+	trait="trait_conformists"
+	trait="trait_slow_learners"
+	trait="trait_sanshas_nation"
+}

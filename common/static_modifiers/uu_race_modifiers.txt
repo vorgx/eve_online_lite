@@ -1,0 +1,109 @@
+amarrian_armor = {
+		ship_armor_add  = 5
+		ship_armor_mult = 0.15
+}
+
+caldari_shield_generators = {
+		ship_shield_hp_add = 50
+		ship_shield_hp_mult = 0.15
+}
+
+gallente_hull_construction = {
+		ship_hitpoints_add = 100
+		ship_hitpoints_mult = 0.15
+}
+
+minmatari_thrusters = {
+		ship_speed_mult = 0.25
+		ship_combat_speed_mult = 0.25
+		ship_evasion_mult = 0.15
+}
+
+# Ishukone Corporation
+jovian_technology_exchange = {
+	country_engineering_tech_research_speed  = 0.1
+	country_society_tech_research_speed  = 0.1
+	country_physics_tech_research_speed  = 0.1
+	num_tech_alternatives_add = 1
+}
+
+# Sansha's Nation
+true_slaves = {
+	pop_ethic_shift = -1.0
+	pop_happiness = 1.0
+}
+
+khanid_trade_access = {
+	country_trade_attractiveness = 0.2
+	influence_gain_add = 1
+	tile_resource_energy_mult = 0.1
+}
+
+ammatar_collaboration = {
+	pop_ethic_shift = -0.2
+	max_embassies = 1
+	pop_environment_tolerance = 0.1
+}
+
+ore_mining_construction = {
+	shipsize_mining_station_build_cost_mult = -0.4
+	#shipsize_mining_station_build_time_mult = -0.3 ## Does not exist
+	tile_resource_minerals_mult = 0.1
+}
+
+interbus_transportation = {
+	spaceport_ship_build_time_mult = -0.2
+	spaceport_ship_build_cost_mult = -0.3
+}
+
+mordus_legion_commanders = {
+	leader_skill_levels = 1
+	leader_influence_cost = -0.33
+	country_leader_pool_size = 1
+}
+
+blood_rituals = {
+	#category_biology_research_speed_mult = 0.5  ## Does not exist
+	country_society_tech_research_speed = 0.4
+	army_health = 0.2
+}
+
+jovian_technology_salvagers = {
+	#category_field_manipulation_research_speed_mult = 0.3  ## Does not exist
+	ship_anomaly_generation_chance_mult = 0.5
+	ship_anomaly_fail_risk = -0.2
+}
+
+cbd_trade_network = {
+	country_trade_attractiveness = 0.2
+	ship_upkeep_mult = -0.1
+}
+
+lai_dai_quality_insurance = {
+	spaceport_ship_build_time_mult = 0.1
+	spaceport_ship_build_cost_mult = 0.1
+	ship_upkeep_mult = -0.2
+	ship_hitpoints_mult = 0.3
+}
+
+syndicate_financial_sector = {
+	tile_resource_energy_mult = 0.3
+}
+
+
+guristas_operations = {
+	tile_resource_minerals_mult = 0.1
+	species_leader_exp_gain = 0.25
+	edict_influence_cost = -0.25
+}
+
+thukker_caravans = {
+	planet_colony_development_speed_mult = 0.4
+	planet_clear_blocker_time_mult = -0.2
+	planet_clear_blocker_cost_mult = -0.2
+}
+
+interceptor = {
+		ship_armor_add  = 5
+		ship_armor_mult = 0.15
+}

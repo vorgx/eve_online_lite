@@ -1,0 +1,50 @@
+laidai_corporation
+={
+	flags = { laidai_corporation }
+	name_list="caldari_namelist"
+	ship_prefix="DLC"
+	species_name="Caldari"
+	species_plural="Caldari"
+	species_class="CLD"
+	species_adjective="Caldari"
+	portrait="caldari"
+	name="Lai Dai Corporation"
+	adjective="Lai Dai"
+	government="despotic_hegemony"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Airkio VIc"
+	planet_class="pc_tundra"
+	system_name="Airkio"
+	initializer="laidai_corporation"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve"
+			file="laidai.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"dark_blue"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Alakoni Ishanoya"
+		portrait="caldari_male4"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_collectivist"
+	ethic="ethic_materialist"
+	trait="trait_talented"
+	trait="trait_sedentary"
+	trait="trait_communal"
+	trait="trait_lai_dai_corporation"
+}

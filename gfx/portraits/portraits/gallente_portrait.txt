@@ -1,0 +1,150 @@
+portraits = {
+	gallente_male1 = { texturefile = "gfx/portraits/gallente/gallente_male1.dds"}
+	gallente_male2 = { texturefile = "gfx/portraits/gallente/gallente_male2.dds"}
+	gallente_male3 = { texturefile = "gfx/portraits/gallente/gallente_male3.dds"}
+	gallente_male4 = { texturefile = "gfx/portraits/gallente/gallente_male4.dds"}
+	gallente_male5 = { texturefile = "gfx/portraits/gallente/gallente_male5.dds"}
+	gallente_male6 = { texturefile = "gfx/portraits/gallente/gallente_male6.dds"}
+	gallente_female1 = { texturefile = "gfx/portraits/gallente/gallente_female1.dds"}
+	gallente_female2 = { texturefile = "gfx/portraits/gallente/gallente_female2.dds"}
+	gallente_female3 = { texturefile = "gfx/portraits/gallente/gallente_female3.dds"}
+	gallente_female4 = { texturefile = "gfx/portraits/gallente/gallente_female4.dds"}
+	gallente_female5 = { texturefile = "gfx/portraits/gallente/gallente_female5.dds"}
+	gallente_female6 = { texturefile = "gfx/portraits/gallente/gallente_female6.dds"}
+}
+
+portrait_groups = {
+	gallente = {
+		default = gallente_male1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					gallente_male1	
+					gallente_male2
+					gallente_male3
+					gallente_male4
+					gallente_male5
+					gallente_male6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					gallente_female1
+					gallente_female2
+					gallente_female3
+					gallente_female4
+					gallente_female5
+					gallente_female6					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					gallente_male1	
+					gallente_male2
+					gallente_male3
+					gallente_male4
+					gallente_male5
+					gallente_male6
+					gallente_female1
+					gallente_female2
+					gallente_female3
+					gallente_female4
+					gallente_female5
+					gallente_female6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					gallente_male1	
+					gallente_male2
+					gallente_male3
+					gallente_male4
+					gallente_male5
+					gallente_male6
+					gallente_female1
+					gallente_female2
+					gallente_female3
+					gallente_female4
+					gallente_female5
+					gallente_female6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gallente_male1	
+					gallente_male2
+					gallente_male3
+					gallente_male4
+					gallente_male5
+					gallente_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gallente_female1
+					gallente_female2
+					gallente_female3
+					gallente_female4
+					gallente_female5
+					gallente_female6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					gallente_male1	
+					gallente_male2
+					gallente_male3
+					gallente_male4
+					gallente_male5
+					gallente_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					gallente_female1
+					gallente_female2
+					gallente_female3
+					gallente_female4
+					gallente_female5
+					gallente_female6
+				}
+			}
+		}
+	}		
+		
+}
