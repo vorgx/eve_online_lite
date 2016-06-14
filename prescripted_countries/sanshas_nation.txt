@@ -21,7 +21,7 @@ sanshas_nation
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="sansha.dds"
 		}
 		background={

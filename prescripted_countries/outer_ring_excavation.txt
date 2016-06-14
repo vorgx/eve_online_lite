@@ -21,7 +21,7 @@ ore
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="ore.dds"
 		}
 		background={

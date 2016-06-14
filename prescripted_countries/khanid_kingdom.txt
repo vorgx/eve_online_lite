@@ -21,7 +21,7 @@ khanid_kingdom
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="khanid.dds"
 		}
 		background={

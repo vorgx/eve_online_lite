@@ -21,7 +21,7 @@ amarr
 	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="amarr.dds"
 		}
 		background={

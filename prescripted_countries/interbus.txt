@@ -21,7 +21,7 @@ interbus
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="interbus.dds"
 		}
 		background={

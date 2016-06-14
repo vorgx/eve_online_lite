@@ -21,7 +21,7 @@ thukker_tribe
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="thukker.dds"
 		}
 		background={

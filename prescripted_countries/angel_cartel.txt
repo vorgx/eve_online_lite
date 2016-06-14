@@ -21,7 +21,7 @@ angel_cartel
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="eve"
+			category="eve_online"
 			file="angelscartel.dds"
 		}
 		background={
