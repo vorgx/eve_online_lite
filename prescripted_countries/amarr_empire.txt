@@ -43,5 +43,7 @@ amarr
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_spiritualist"
+	trait="trait_communal"
+	trait="trait_conformists"
 	trait="trait_slow_learners"
 }
