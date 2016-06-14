@@ -18,7 +18,7 @@ portrait_groups = {
 		default = amarr_male1
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
-			trigger = {
+				trigger = {
 					ruler = { gender = male }
 				}
 				portraits = {
