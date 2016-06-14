@@ -1,0 +1,18 @@
+[h1]EvE Online: Horizon Lite[/h1]
+This mod is a smaller version of EvE Online: Horizon. It will only feature changes to graphical elements and content. It will be updated with new additions from the main mod as they become available and do not alter gameplay.
+We will as well attempt to keep compatibility with other mods high.
+
+[h1]Features[/h1]
+•	18 pre-scripted factions from EvE Online
+•	4 phenotypes with twelve portraits each
+•	34 emblems to customize your flags
+
+[h1]Main Mod[/h1]
+The main mod can be found [url=http://steamcommunity.com/sharedfiles/filedetails/?id=689597045] here.[/url]
+
+
+[h1]Compatibility[/h1]
+This mod should be compatible with most other mods. 
+Currently changed files are:
+
+…/prescripted_countries/00_prescripted_countries.txt
