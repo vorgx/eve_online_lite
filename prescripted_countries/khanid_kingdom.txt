@@ -1,5 +1,5 @@
 khanid_kingdom
-={
+= {
 	flags = { khanid_kingdom }
 	name_list="amarr"
 	ship_prefix="RKN"
@@ -40,7 +40,7 @@ khanid_kingdom
 		name="Garkeh Khanid II"
 		portrait="amarr_male3"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_militarist"
 	trait="trait_sedentary"

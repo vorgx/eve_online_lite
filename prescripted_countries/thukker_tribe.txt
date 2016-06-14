@@ -37,10 +37,10 @@ thukker_tribe
 	}
 	ruler={
 		gender=male
-		name="Egar Aldinold"
+		name="Einnar Aeboul"
 		portrait="minmatar_male6"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
 	ethic="ethic_collectivist"

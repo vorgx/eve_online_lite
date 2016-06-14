@@ -1,4 +1,5 @@
-minmatar ={
+minmatar 
+={
 	flags = { minmatar_republic }
 	name_list="minmatar"
 	ship_prefix="MMT"
@@ -36,14 +37,13 @@ minmatar ={
 	}
 	ruler={
 		gender=male
-		name="Amarg Hnergils"
+		name="Maleatu Shakor"
 		portrait="minmatar"
 	}
 	spawn_enabled=always
 	ethic="ethic_fanatic_individualist"
 	ethic="ethic_militarist"
-	trait="trait_adaptive"
+	trait="trait_nomadic"
 	trait="trait_strong"
-	trait="trait_slow_learners"
 	trait="trait_minmatar"
 }

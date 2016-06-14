@@ -1,5 +1,5 @@
 cbd_corporation
-={
+= {
 	flags = { cbd_corporation }
 	name_list="caldari_namelist"
 	ship_prefix="CBD"
@@ -10,7 +10,7 @@ cbd_corporation
 	portrait="caldari"
 	name="CBD Corporation"
 	adjective="CBD"
-	government="despotic_hegemony"
+	government="plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Muvolailen VII"
@@ -40,7 +40,7 @@ cbd_corporation
 		name="Imanima Hinpas"
 		portrait="caldari_female3"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_collectivist"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"

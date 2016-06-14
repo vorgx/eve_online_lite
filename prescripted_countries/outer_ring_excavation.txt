@@ -37,10 +37,10 @@ ore
 	}
 	ruler={
 		gender=male
-		name="Afait Assette"
+		name="Yani Sar Arteu"
 		portrait="gallente_male3"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_materialist"
 	ethic="ethic_pacifist"
 	ethic="ethic_individualist"

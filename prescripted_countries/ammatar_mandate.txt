@@ -1,13 +1,13 @@
-ammatar_mandate
-={
+ammatar_mandate 
+= {
 	flags = { ammatar_mandate }
 	name_list="amarr"
 	ship_prefix="AM"
 	species_name="Ammatar"
 	species_plural="Ammatar"
-	species_class="AMR"
+	species_class="MMT"
 	species_adjective="Ammatari"
-	portrait="amarr"
+	portrait="minmatar"
 	name="Ammatar Mandate"
 	adjective="Ammatar Mandate"
 	government="despotic_empire"
@@ -17,8 +17,8 @@ ammatar_mandate
 	planet_class="pc_tropical"
 	system_name="Tanoo"
 	initializer="ammatar_mandate"
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="molluscoid_01"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
 			category="eve"
@@ -37,10 +37,10 @@ ammatar_mandate
 	}
 	ruler={
 		gender=male
-		name="Anfrid Uptemulf"
+		name="Yonis Ardishapur"
 		portrait="amarr_male1"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_militarist"
 	trait="trait_slow_learners"

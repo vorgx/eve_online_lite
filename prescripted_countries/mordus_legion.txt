@@ -1,7 +1,7 @@
 mordus_legion
 ={
 	flags = { mordus_legion }
-	name_list="gallente"
+	name_list="caldari_namelist"
 	ship_prefix="ML"
 	species_name="Intaki"
 	species_plural="Intaki"
@@ -13,12 +13,12 @@ mordus_legion
 	government="military_dictatorship"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
-	planet_name="5ZXX-K IVc"
+	planet_name="5ZXX-K V"
 	planet_class="pc_arid"
 	system_name="5ZXX-K"
 	initializer="mordus_legion"
-	graphical_culture="fungoid_01"
-	city_graphical_culture="fungoid_01"
+	graphical_culture="mammalian_01"
+        city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
 			category="eve"
@@ -36,11 +36,11 @@ mordus_legion
 		}
 	}
 	ruler={
-		gender=female
+		gender=male
 		name="Muryia Mordu"
-		portrait="gallente_female5"
+		portrait="caldari_male4"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_collectivist"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"

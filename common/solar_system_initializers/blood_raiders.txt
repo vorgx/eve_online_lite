@@ -9,39 +9,39 @@
 @min_moon_distance_gg = 20
 
 blood_raiders = {
-    name = "KFIE-Z"
-    class = "rl_standard_stars"
-    flags = { blood_raiders_home_system }
-	usage = custom_empire
-    planet = {                               
-        class = star
-        size = 35
-        orbit_distance = 0
+    		name = "KFIE-Z"
+    		class = "rl_standard_stars"
+    		flags = { blood_raiders_home_system }				## Flag to find the system
+		usage = custom_empire
+    	planet = {  							## The Sun of this system                     
+        	class = star
+        	size = 90
+        	orbit_distance = 0
     }
-    planet = {							
-        class = "pc_molten"								
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = 13
-        change_orbit = @min_moon_distance
+    	planet = {							
+        	class = "pc_molten"								
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 13
+        	change_orbit = @min_moon_distance
         moon = {
-            class = "pc_toxic"
-            size = 9
-            orbit_distance = 6
-            orbit_angle = { min = 20 max = 270 }
+            	class = "pc_toxic"
+            	size = 9
+            	orbit_distance = 6
+            	orbit_angle = { min = 20 max = 270 }
         }
     }
-    planet = { 								
-        class = "pc_desert"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = @tiles_home_world
+    	planet = { 								
+        	class = "pc_desert"
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = @tiles_home_world					## Home World of the Blood Raiders
 		flags = { blood_raiders_home_planet }
 		home_planet = yes 
-        tile_blockers = none
-        modifiers = none
+        	tile_blockers = none
+        	modifiers = none
         init_effect = { 
-            prevent_anomaly = yes
+            	prevent_anomaly = yes
         } 
 		init_effect = {
 			random_tile = {
@@ -158,97 +158,105 @@ blood_raiders = {
 		}
         change_orbit = @min_moon_distance
         moon = {
-            class = "pc_barren"
-            size = 3
-            orbit_distance = 6
-            orbit_angle = { min = 20 max = 270 }
+            	class = "pc_barren"
+            	size = 3
+            	orbit_distance = 6
+            	orbit_angle = { min = 20 max = 270 }
         }
     }
-    planet = { 
-        class = "pc_gas_giant"
-        orbit_distance = @standard_orbit_distance												
-        orbit_angle = { min = 20 max = 270 }
-        size = 35
-        change_orbit = @min_moon_distance
+    	planet = { 
+        	class = "pc_gas_giant"
+        	orbit_distance = @standard_orbit_distance								
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 35
+        	change_orbit = @min_moon_distance
         moon = {
-            class = random_non_colonizable
-			count = { min = 2 max = 5 }
-            size = { min = 3 max = 7 }
-            orbit_distance =  { min = 5 max = 8 }
-            orbit_angle = { min = 20 max = 270 }
+            	class = random_non_colonizable
+	    	count = { min = 2 max = 3 }
+            	size = { min = 3 max = 7 }
+            	orbit_distance =  { min = 5 max = 8 }
+            	orbit_angle = { min = 20 max = 270 }
         }
     }
-    planet = { 
-        class = "pc_tropical"       
-        orbit_distance = @standard_orbit_distance																
-        orbit_angle = { min = 20 max = 270 }
-        size = @tiles_hab_60_planet
+    	planet = { 
+        	class = "pc_tropical"       
+        	orbit_distance = @standard_orbit_distance								
+        	orbit_angle = { min = 20 max = 270 }
+        	size = @tiles_hab_60_planet
 		has_ring = no
-        change_orbit = @min_moon_distance
+        	change_orbit = @min_moon_distance
         moon = {
-            class = "pc_barren"
-            size = 7
-            orbit_distance = 3
-            orbit_angle = { min = 20 max = 270 }
+            	class = "pc_barren"
+            	size = 7
+            	orbit_distance = 3
+            	orbit_angle = { min = 20 max = 270 }
         }
     }
-    planet = { 
-        class = "pc_barren"
-        orbit_distance = @standard_orbit_distance										
-        orbit_angle = { min = 20 max = 270 }
-        size = { min = 15 max = 35 }
+    	planet = { 
+        	class = "pc_barren"
+        	orbit_distance = @standard_orbit_distance							
+        	orbit_angle = { min = 20 max = 270 }
+        	size = { min = 15 max = 35 }
 		has_ring = no
-        change_orbit = @min_moon_distance
-		moon = {
-            class = random_non_colonizable
-			count = { min = 0 max = 2 }
-            size = { min = 3 max = 7 }
-            orbit_distance = { min = 5 max = 8 }
-            orbit_angle = { min = 20 max = 270 }
+        	change_orbit = @min_moon_distance
+	moon = {
+            	class = random_non_colonizable
+	    	count = { min = 1 max = 2 }
+            	size = { min = 3 max = 7 }
+            	orbit_distance = { min = 5 max = 8 }
+            	orbit_angle = { min = 20 max = 270 }
         }
     }
-    planet = { 
-        class = "pc_gas_giant"
-        orbit_distance = @standard_orbit_distance									
-        orbit_angle = { min = 20 max = 270 }
-        size = 30
-        change_orbit = @min_moon_distance_gg
-		moon = {
-			class = "pc_arctic"
-			size = @tiles_hab_0_planet
-			orbit_angle = { min = 20 max = 270 }
-			orbit_distance = 5
+    	planet = { 
+        	class = "pc_gas_giant"
+        	orbit_distance = @standard_orbit_distance								
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 30
+        	change_orbit = @min_moon_distance_gg
+	moon = {
+		class = "pc_arctic"
+		size = @tiles_hab_0_planet
+		orbit_angle = { min = 20 max = 270 }
+		orbit_distance = 5
 		}
-		moon = {
-            class = random_non_colonizable
-			count = { min = 2 max = 4 }
-            size = { min = 3 max = 7 }
-            orbit_distance =  { min = 5 max = 8 }
-            orbit_angle = { min = 20 max = 270 }
+	moon = {
+            	class = random_non_colonizable
+	    	count = { min = 1 max = 2 }
+            	size = { min = 3 max = 7 }
+            	orbit_distance =  { min = 5 max = 8 }
+            	orbit_angle = { min = 20 max = 270 }
 		}
 	}
-    planet = { 
-        class = "pc_barren"
-        orbit_distance = @standard_orbit_distance 											
-        orbit_angle = { min = 20 max = 270 }
-        size = 21
-        change_orbit = @min_moon_distance	
+    	planet = { 
+        	class = "pc_barren"
+        	orbit_distance = @standard_orbit_distance 							
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 21
+        	change_orbit = @min_moon_distance	
 		has_ring = no
         moon = {
-            class = random_non_colonizable
-			count = { min = 0 max = 2 }
-            size = { min = 3 max = 7 }
-            orbit_distance =  { min = 5 max = 8 }
-            orbit_angle = { min = 20 max = 270 }
+            	class = random_non_colonizable
+		count = { min = 1 max = 2 }
+        	size = { min = 3 max = 7 }
+        	orbit_distance =  { min = 5 max = 8 }
+            	orbit_angle = { min = 20 max = 270 }
         }
     }
 	
 	planet = { 
-        class = "pc_frozen"
-        orbit_distance = @standard_orbit_distance										
-        orbit_angle = { min = 20 max = 270 }
+        	class = "pc_frozen"
+        	orbit_distance = @standard_orbit_distance								
+        	orbit_angle = { min = 20 max = 270 }
 		has_ring = no
-        size = 20
+        	size = 20
+        	change_orbit = @min_moon_distance_gg	
+	moon = {
+            	class = random_non_colonizable
+	    	count = { min = 1 max = 2 }
+            	size = { min = 3 max = 7 }
+            	orbit_distance =  { min = 5 max = 8 }
+            	orbit_angle = { min = 20 max = 270 }
+        }
 	}
   
 	planet = {
@@ -257,12 +265,226 @@ blood_raiders = {
 		orbit_angle = { min = 20 max = 270 }
 		size = 35
 		change_orbit = @min_moon_distance_gg	
-		moon = {
-            class = random_non_colonizable
-			count = { min = 2 max = 5 }
-            size = { min = 3 max = 7 }
-            orbit_distance =  { min = 5 max = 8 }
-            orbit_angle = { min = 20 max = 270 }
+	moon = {
+            	class = random_non_colonizable
+	    	count = { min = 1 max = 2 }
+            	size = { min = 3 max = 7 }
+            	orbit_distance =  { min = 5 max = 8 }
+            	orbit_angle = { min = 20 max = 270 }
         }
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }		
+		initializer = "neighbor_t1"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }		
+		initializer = "neighbor_t1_first_colony"
+	}
+}
+### NEIGHBORING SYSTEMS
+
+# Neighbor Tier 1
+neighbor_t1 = {
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 20
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "neighbor_t2_second_colony"
+	}
+}
+
+# Neighbor Tier 1 First Colony
+neighbor_t1_first_colony = {	
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = 1
+		orbit_distance = 25
+		class = ideal_planet_class
+		tile_blockers = none
+		modifiers = none
+		anomaly = none
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 18 }
+
+		init_effect = {
+			set_planet_flag = prescripted_ideal			# used by code, do not remove
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}	
+	}
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "neighbor_t2"
+	}
+}
+
+# Neighbor Tier 2
+neighbor_t2 = {
+	class = "rl_standard_stars"
+	asteroids_distance = 70
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	planet = {
+		count = 1
+		orbit_distance = 45
+	}
+	change_orbit = 25
+	planet = {
+		count = { min = 1 max = 3 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 15 max = 110 }
+	}
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		change_orbit = @base_moon_distance
+		
+		moon = {		
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+}
+
+# Neighbor Tier 2 Second Colony
+neighbor_t2_second_colony = {
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	change_orbit = 25
+	planet = {
+		count = 2
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+	}
+	planet = {
+		count = 1
+		orbit_distance = 25
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 24 }
+		change_orbit = @base_moon_distance
+		
+		init_effect = {
+			set_planet_flag = prescripted_ideal			# used by code, do not remove
+		}		
+		moon = {
+		count = { min = 0 max = 1 }
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = 2
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+		count = { min = 0 max = 1 }
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
 	}
 }

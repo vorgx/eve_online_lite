@@ -1,5 +1,5 @@
 ishukone_corporation
-={
+= {
 	flags = { ishukone_corporation }
 	name_list="caldari_namelist"
 	ship_prefix="IC"
@@ -37,10 +37,10 @@ ishukone_corporation
 	}
 	ruler={
 		gender=male
-		name="Men Reppola"
+		name="Mens Reppola"
 		portrait="caldari_male4"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_materialist"
 	trait="trait_thrifty"

@@ -1,5 +1,5 @@
 guristas
-={
+= {
 	flags = { guristas }
 	name_list="caldari_namelist"
 	ship_prefix="GP"
@@ -36,11 +36,11 @@ guristas
 		}
 	}
 	ruler={
-		gender=male
-		name="Rabbit"
-		portrait="caldari_male3"
+		gender=female
+		name="Korako Kosakami"
+		portrait="caldari_female2"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_individualist"
 	trait="trait_industrious"

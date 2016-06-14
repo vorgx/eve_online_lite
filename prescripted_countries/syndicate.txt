@@ -37,10 +37,10 @@ syndicate
 	}
 	ruler={
 		gender=female
-		name="Silphy enDiabel"
+		name="Silphy en Diabel"
 		portrait="gallente_female2"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
 	ethic="ethic_individualist"

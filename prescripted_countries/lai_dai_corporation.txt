@@ -1,5 +1,5 @@
 laidai_corporation
-={
+= {
 	flags = { laidai_corporation }
 	name_list="caldari_namelist"
 	ship_prefix="DLC"
@@ -36,11 +36,11 @@ laidai_corporation
 		}
 	}
 	ruler={
-		gender=male
+		gender=female
 		name="Alakoni Ishanoya"
-		portrait="caldari_male4"
+		portrait="caldari_female3"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_collectivist"
 	ethic="ethic_materialist"
 	trait="trait_talented"

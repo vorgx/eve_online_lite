@@ -1,4 +1,5 @@
-gallente = {
+gallente 
+= {
 	flags = { gallente_federation }
 	name_list="gallente"
 	ship_prefix="GAL"
@@ -36,17 +37,15 @@ gallente = {
 
 	}
 	ruler={
-		gender=female
-		name="Julieniya Wond"
-		portrait="gallente"
+		gender=male
+		name="Mens Reppola"
+		portrait="gallente_male5"
 	}
 	spawn_enabled=always
 	ethic="ethic_individualist"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
-	trait="trait_thrifty"
-	trait="trait_weak"
-	trait="trait_sedentary"
-	trait="trait_talented"
+	trait="trait_charismatic"
+	trait="trait_natural_sociologists"
 	trait="trait_gallente"
 }

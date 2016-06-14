@@ -9,41 +9,41 @@
 @min_moon_distance_gg = 20
 
 amarr_empire = {
-    name = "Amarr"
-    class = "rl_standard_stars"
-    flags = { amarr_empire_home_system } 	## Flag to find the system
-	usage = custom_empire
-    planet = { 								## The Sun of this System
-        class = star
-        size = 35
-        orbit_distance = 0
+    		name = "Amarr"
+    		class = "rl_standard_stars"
+    		flags = { amarr_empire_home_system } 			## Flag to find the system
+		usage = custom_empire
+    	planet = { 							## The Sun of this system
+        	class = star
+        	size = 70
+        	orbit_distance = 0
     }
-    planet = { 
+    	planet = { 
 		name = "Mikew"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = 15
-        class = "pc_molten"       
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 15
+        	class = "pc_molten"       
     }
-    planet = { 
+    	planet = { 
 		name = "Mikeb"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = 17
-        class = "pc_barren"        
+       		orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 17
+        	class = "pc_barren"        
     }
-    planet = {  								## Home World of the Amarr
+    	planet = {  							## Home World of the Amarr
 		name = "Amarr Prime"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = @tiles_home_world
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = @tiles_home_world
 		flags = { amarr_empire_home_planet }
-        class = "pc_continental"
-        home_planet = yes 
-        tile_blockers = none
-        modifiers = none
+        	class = "pc_continental"
+        	home_planet = yes 
+        	tile_blockers = none
+        	modifiers = none
         init_effect = { 
-            prevent_anomaly = yes
+            	prevent_anomaly = yes
         } 
 		init_effect = {
 			random_tile = {
@@ -159,109 +159,370 @@ amarr_empire = {
 			}			
 		}
     }
-    planet = { 
+    	planet = { 
 		name = "Tamiroth"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = @tiles_hab_60_planet
-        class = "pc_ocean"        
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = @tiles_hab_60_planet
+        	class = "pc_ocean"        
     }
-    planet = { 
+    	planet = { 
 		name = "Sek"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = 27
-        class = "pc_barren"
-        change_orbit = 10
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 27
+        	class = "pc_barren"
+        	change_orbit = 10
         moon = {
-			name = "Sek - Moon 1"
-            size = 10
-            orbit_distance = 3
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_toxic"
+		name = "Sek - Moon 1"
+            	size = 10
+            	orbit_distance = 3
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_toxic"
         }
     }
 	planet = { 
 		name = "Zorast"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = 35
-        class = "pc_gas_giant"
-        change_orbit = 10
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 35
+        	class = "pc_gas_giant"
+        	change_orbit = 10
         moon = {
-			name = "Zorast - Moon 1"
-            size = 13
-            orbit_distance = 6
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_frozen"
+		name = "Zorast - Moon 1"
+            	size = 13
+            	orbit_distance = 4
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_frozen"
         }
         moon = {
-			name = "Zorast - Moon 2"
-            size = 9
-            orbit_distance = 5
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_frozen"
+		name = "Zorast - Moon 2"
+            	size = 9
+            	orbit_distance = 6
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_frozen"
         }
     }
-    planet = { 
+    	planet = { 
 		name = "Nemantizor"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = 30
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = 30
 		class = "pc_toxic"
-        change_orbit = 10
+        	change_orbit = 10
         moon = {
-			name = "Nemantizor - Moon 1"
-            size = 8
-            orbit_distance = 5
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_toxic"
+		name = "Nemantizor - Moon 1"
+            	size = 8
+            	orbit_distance = 3
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_toxic"
         }
-		moon = {
-			name = "Nemantizor - Moon 2"
-            size = 12
-            orbit_distance = 5
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_frozen"
-		}
-		moon = {
-			name = "Nemantizor - Moon 3"
-            size = 4
-            orbit_distance = 3
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_barren"
-		}
+	moon = {
+		name = "Nemantizor - Moon 2"
+            	size = 12
+            	orbit_distance = 4
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_frozen"
+	}
+	moon = {
+		name = "Nemantizor - Moon 3"
+            	size = 4
+            	orbit_distance = 5
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_barren"
+	}
     }
 	planet = { 
 		name = "Oris"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
-        size = @tiles_hab_0_planet
-        class = "pc_tundra"
-        change_orbit = 10
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
+        	size = @tiles_hab_0_planet
+        	class = "pc_tundra"
+        	change_orbit = 10
         moon = {
-			name = "Oris - Moon"
-			count = { min = 2 max = 5 }
-            size = { min = 3 max = 7 }
-            orbit_distance = 5
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_barren"
+		name = "Oris - Moon 1"
+            	size = 8
+            	orbit_distance = 4
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_toxic"
+        }
+        moon = {
+		name = "Oris - Moon 2"
+            	size = 15
+            	orbit_distance = 5
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_barren"
+        }
+        moon = {
+		name = "Oris - Moon 3"
+        	size = 10
+        	orbit_distance = 6
+            	orbit_angle = { min = 20 max = 270 }
+        	class = "pc_molten"
+        }
+        moon = {
+		name = "Oris - Moon 4"
+        	 size = 10
+        	 orbit_distance = 7
+        	 orbit_angle = { min = 20 max = 270 }
+        	 class = "pc_toxic"
         }
     }
 	planet = { 
 		name = "Derdainys"
-        orbit_distance = @standard_orbit_distance
-        orbit_angle = { min = 20 max = 270 }
+        	orbit_distance = @standard_orbit_distance
+        	orbit_angle = { min = 20 max = 270 }
 		size = 35
-        class = "pc_gas_giant"
-        change_orbit = 10
+        	class = "pc_gas_giant"
+        	change_orbit = 10
         moon = {
-			name = "Derdainys - Moon"
-			count = { min = 4 max = 5 } 
-            size = { min = 2 max = 5 }
-            orbit_distance = 6
-            orbit_angle = { min = 20 max = 270 }
-            class = "pc_frozen"
+		name = "Derdainys - Moon 1"
+       		size = 17
+        	orbit_distance = 3
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_barren"
         }
+        moon = {
+		name = "Derdainys - Moon 2"
+            	size = 10
+            	orbit_distance = 4
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_toxic"
+        }
+        moon = {
+		name = "Derdainys - Moon 3"
+            	size = 11
+            	orbit_distance = 5
+            	orbit_angle = { min = 20 max = 270 }
+            	class = "pc_molten"
+        }
+        moon = {
+		name = "Derdainys - Moon 4"
+        	size = 15
+        	orbit_distance = 6
+            	orbit_angle = { min = 20 max = 270 }
+        	class = "pc_toxic"
+        }
+        moon = {
+		name = "Derdainys - Moon 5"
+        	size = 12
+        	orbit_distance = 7
+        	orbit_angle = { min = 20 max = 270 }
+        	class = "pc_barren"
+        }
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }		
+		initializer = "neighbor_t1"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }		
+		initializer = "neighbor_t1_first_colony"
+	}
+}
+### NEIGHBORING SYSTEMS
+
+# Neighbor Tier 1
+neighbor_t1 = {
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 20
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "neighbor_t2_second_colony"
+	}
+}
+
+# Neighbor Tier 1 First Colony
+neighbor_t1_first_colony = {	
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	change_orbit = 45
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = 1
+		orbit_distance = 25
+		class = ideal_planet_class
+		tile_blockers = none
+		modifiers = none
+		anomaly = none
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 18 }
+
+		init_effect = {
+			set_planet_flag = prescripted_ideal		# used by code, do not remove
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}
+		init_effect = {
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = random
+			}
+		}	
+	}
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		change_orbit = @base_moon_distance
+		
+		moon = {			
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }	
+		initializer = "neighbor_t2"
+	}
+}
+
+# Neighbor Tier 2
+neighbor_t2 = {
+	class = "rl_standard_stars"
+	asteroids_distance = 70
+
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	planet = {
+		count = 1
+		orbit_distance = 45
+	}
+	change_orbit = 25
+	planet = {
+		count = { min = 1 max = 3 }
+		class = random_asteroid
+		orbit_distance = 0
+		orbit_angle = { min = 15 max = 110 }
+	}
+	planet = {
+		count = { min = 2 max = 5 }
+		orbit_distance = 25
+		change_orbit = @base_moon_distance
+		
+		moon = {		
+		count = { min = 0 max = 1 }
+		orbit_distance = 5
+		}
+	}
+}
+
+# Neighbor Tier 2 Second Colony
+neighbor_t2_second_colony = {
+	class = "rl_standard_stars"
+	planet = {
+		count = 1
+		class = star
+		orbit_distance = 0
+		orbit_angle = 1
+		size = { min = 20 max = 30 }
+		has_ring = no
+	}
+	change_orbit = 25
+	planet = {
+		count = 2
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+	}
+	planet = {
+		count = 1
+		orbit_distance = 25
+		class = ideal_planet_class
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 14 max = 24 }
+		change_orbit = @base_moon_distance
+		
+		init_effect = {
+			set_planet_flag = prescripted_ideal		# used by code, do not remove
+		}		
+		moon = {
+		count = { min = 0 max = 1 }
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = 2
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
+		change_orbit = @base_moon_distance
+		
+		moon = {
+		count = { min = 0 max = 1 }
+		class = random_non_colonizable
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 5
+		}
+	}
+	planet = {
+		count = { min = 0 max = 2 }
+		orbit_angle = { min = 90 max = 270 }
+		orbit_distance = 20
 	}
 }

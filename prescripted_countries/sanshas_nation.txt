@@ -40,7 +40,7 @@ sanshas_nation
 		name="Sansha Kuvakei"
 		portrait="caldari"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_collectivist"
 	ethic="ethic_militarist"
 	trait="trait_industrious"

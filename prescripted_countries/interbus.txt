@@ -1,5 +1,5 @@
 interbus
-={
+= {
 	flags = { interbus }
 	name_list="gallente"
 	ship_prefix="IB"
@@ -38,9 +38,9 @@ interbus
 	ruler={
 		gender=male
 		name="Haukkakka Pukara"
-		portrait="gallente_male1"
+		portrait="caldari_male6"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_materialist"
 	ethic="ethic_pacifist"
 	ethic="ethic_individualist"

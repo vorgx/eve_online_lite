@@ -1,4 +1,5 @@
-amarr = {
+amarr 
+= {
 	flags = { amarr_empire }
 	name_list="amarr"
 	ship_prefix="AMR"
@@ -36,14 +37,13 @@ amarr = {
 	}
 	ruler={
 		gender=female
-		name="Jamyl Sarum I."
+		name="Catiz Tash-Murkon"
 		portrait="amarr"
 	}
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_spiritualist"
-	trait="trait_slow_breeders"
-	trait="trait_enduring"
-	trait="trait_conformists"
+	trait="trait_amarr_faith"
+	trait="trait_slow_learners"
 	trait="trait_amarr"
 }

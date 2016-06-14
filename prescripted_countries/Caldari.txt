@@ -1,4 +1,5 @@
-caldari = {
+caldari 
+= {
 	flags = { caldari_state }
 	name_list="caldari_namelist"
 	ship_prefix="CLD"
@@ -9,7 +10,7 @@ caldari = {
 	portrait="caldari"
 	name="Caldari State"
 	adjective="Caldari State"
-	government="military_junta"
+	government="plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Caldari Prime"
@@ -36,14 +37,14 @@ caldari = {
 	}
 	ruler={
 		gender=male
-		name="Morimo Yagala"
+		name="Mens Reppola"
 		portrait="caldari"
 	}
 	spawn_enabled=always
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
-	trait="trait_talented"
-	trait="trait_strong"
-	trait="trait_slow_breeders"
+	trait="trait_thrifty"
+	trait="trait_communal"
+	trait="trait_sedentary"
 	trait="trait_caldari"
 }

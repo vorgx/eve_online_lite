@@ -1,5 +1,5 @@
 angel_cartel
-={
+= {
 	flags = { angel_cartel }
 	name_list="minmatar"
 	ship_prefix="AC"
@@ -37,10 +37,10 @@ angel_cartel
 	}
 	ruler={
 		gender=male
-		name="Tabe Rajus"
+		name="Trald Vukenda"
 		portrait="minmatar_male2"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_individualist"
 	trait="trait_thrifty"

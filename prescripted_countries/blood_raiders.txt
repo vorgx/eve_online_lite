@@ -1,4 +1,4 @@
-blood_raiders
+blood_raiders 
 ={
 	flags = { blood_raiders }
 	name_list="amarr"
@@ -17,8 +17,8 @@ blood_raiders
 	planet_class="pc_desert"
 	system_name="KFIE-Z"
 	initializer="blood_raiders"
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="molluscoid_01"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
 	empire_flag={
 		icon={
 			category="eve"
@@ -40,7 +40,7 @@ blood_raiders
 		name="Omir Sarikusa"
 		portrait="amarr_male6"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_spiritualist"
 	trait="trait_conformists"
