@@ -44,5 +44,4 @@ guristas
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_individualist"
 	trait="trait_industrious"
-	trait="trait_guristas"
 }

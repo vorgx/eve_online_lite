@@ -46,5 +46,4 @@ khanid_kingdom
 	trait="trait_sedentary"
 	trait="trait_nonadaptive"
 	trait="trait_very_strong"
-	trait="trait_khanid_kingdom"
 }

@@ -22,7 +22,7 @@ gallente
 	empire_flag={
 		icon={
 			category="eve"
-			file="gallente_flag.dds"
+			file="gallente.dds"
 		}
 		background={
 			category="backgrounds"
@@ -47,5 +47,4 @@ gallente
 	ethic="ethic_materialist"
 	trait="trait_charismatic"
 	trait="trait_natural_sociologists"
-	trait="trait_gallente"
 }

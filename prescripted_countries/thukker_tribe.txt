@@ -46,5 +46,4 @@ thukker_tribe
 	ethic="ethic_collectivist"
 	trait="trait_nomadic"
 	trait="trait_strong"
-	trait="trait_thukker_tribe"
 }

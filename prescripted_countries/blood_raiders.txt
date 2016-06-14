@@ -46,5 +46,4 @@ blood_raiders
 	trait="trait_conformists"
 	trait="trait_repugnant"
 	trait="trait_natural_sociologists"
-	trait="trait_blood_raider"
 }

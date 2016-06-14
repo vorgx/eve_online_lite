@@ -45,5 +45,4 @@ interbus
 	ethic="ethic_pacifist"
 	ethic="ethic_individualist"
 	trait="trait_thrifty"
-	trait="trait_interbus"
 }

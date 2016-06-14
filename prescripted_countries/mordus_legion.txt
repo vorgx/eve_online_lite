@@ -45,5 +45,4 @@ mordus_legion
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
 	trait="trait_talented"
-	trait="trait_mordus_legion"
 }

@@ -45,5 +45,4 @@ cbd_corporation
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
 	trait="trait_thrifty"
-	trait="trait_cbd_corporation"
 }

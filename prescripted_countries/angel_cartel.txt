@@ -44,5 +44,4 @@ angel_cartel
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_individualist"
 	trait="trait_thrifty"
-	trait="trait_angel"
 }

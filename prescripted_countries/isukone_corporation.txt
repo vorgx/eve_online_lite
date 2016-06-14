@@ -44,5 +44,4 @@ ishukone_corporation
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_materialist"
 	trait="trait_thrifty"
-	trait="trait_ishukone_corporation"
 }

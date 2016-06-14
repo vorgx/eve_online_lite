@@ -22,7 +22,7 @@ amarr
 	empire_flag={
 		icon={
 			category="eve"
-			file="amarr_flag.dds"
+			file="amarr.dds"
 		}
 		background={
 			category="backgrounds"
@@ -43,7 +43,5 @@ amarr
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_spiritualist"
-	trait="trait_amarr_faith"
 	trait="trait_slow_learners"
-	trait="trait_amarr"
 }

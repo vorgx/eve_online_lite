@@ -22,7 +22,7 @@ minmatar
 	empire_flag={
 		icon={
 			category="eve"
-			file="minmatar_flag.dds"
+			file="minmatar.dds"
 		}
 		background={
 			category="backgrounds"
@@ -45,5 +45,4 @@ minmatar
 	ethic="ethic_militarist"
 	trait="trait_nomadic"
 	trait="trait_strong"
-	trait="trait_minmatar"
 }

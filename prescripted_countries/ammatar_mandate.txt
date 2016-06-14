@@ -46,5 +46,4 @@ ammatar_mandate
 	trait="trait_slow_learners"
 	trait="trait_communal"
 	trait="trait_conformists"
-	trait="trait_ammatar"
 }

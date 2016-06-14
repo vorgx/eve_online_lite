@@ -45,5 +45,4 @@ ore
 	ethic="ethic_pacifist"
 	ethic="ethic_individualist"
 	trait="trait_industrious"
-	trait="trait_ore"
 }

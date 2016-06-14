@@ -46,5 +46,4 @@ laidai_corporation
 	trait="trait_talented"
 	trait="trait_sedentary"
 	trait="trait_communal"
-	trait="trait_lai_dai_corporation"
 }
